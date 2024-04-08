@@ -5,7 +5,7 @@ import descriComponent from '@/components/descriptionComponent.vue'
 </script>
 
 <template>
-  <main class=" grid  m-auto min-h-4/6 md:max-w-7xl z-10 font-Kumbh   ">
+  <main class=" grid  m-auto min-h-4/6 md:max-w-7xl z-10 font-Kumbh mb-10 md:mb-0  ">
     <headerComponent :cartDetails="cartDetails" />
 
     <div class="md:grid grid-cols-2 md:w-4/6 md:mt-20 lg:mt-12  place-self-center">

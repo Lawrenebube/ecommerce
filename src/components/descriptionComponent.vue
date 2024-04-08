@@ -1,7 +1,7 @@
 <template>
     <section class="lg:mt-7 ">
-        <div class="px-6 md:px-0">
-            <h2 class="text-Orange font-bold uppercase text-sm " > {{ details.company }}</h2>
+        <div class=" px-6 md:px-0">
+            <h2 class="text-Orange font-bold uppercase text-sm pt-8 md:pt-0" > {{ details.company }}</h2>
             <h3 class="text-3xl	text-black font-semibold py-4 w-80"> {{ details.name }}</h3>
             <p class="text-DarkGrayishBlue pb-3">{{ details.description }}            </p>
 
