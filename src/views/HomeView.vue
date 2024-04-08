@@ -25,7 +25,10 @@ import descriComponent from '@/components/descriptionComponent.vue'
       <imageComponent :showArrows="true" class="z-30" /> 
 
     </div>
-
+    <div class="text-center text-sm pt-7">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-Orange">Frontend Mentor</a>. 
+    Coded by <a href="#" class="text-Orange">Ebube</a>.
+  </div>
   </main>
 </template>
 <script>
