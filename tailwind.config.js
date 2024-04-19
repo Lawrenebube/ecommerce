@@ -22,6 +22,9 @@ export default {
       },
       fontSize: {
         s: '0.6rem',
+      },
+      width: {
+        '82':'22rem'
       }
     },
   },

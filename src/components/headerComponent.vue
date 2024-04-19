@@ -22,12 +22,12 @@
             </div>
         </section>
         <section class="flex gap-5 col-start-4">
-            <div class="relative">
+            <div class="md:relative">
                 <img @click="showCarte" src="../assets/images/icon-cart.svg" class="h-5 cursor-pointer" alt="">
                 <div>
                     <span v-if="cartDetails.num == 0" class="hidden"></span>
                     <span v-else
-                        class="absolute -top-2  -right-1 w-4 h-3 flex  rounded-lg text-s justify-center  bg-Orange text-White">
+                        class="absolute  top-1 right-14 md:-top-2  md:-right-1 w-4 h-3 flex  rounded-lg text-s justify-center  bg-Orange text-White">
                         {{ cartDetails.num }}
                     </span>
                 </div>
@@ -36,8 +36,8 @@
 
                 </div>
             </div>
-            <div>
-                <img src="../assets/images/image-avatar.png" class="h-5 cursor-pointer" alt="">
+            <div >
+                <img src="../assets/images/image-avatar.png" class="h-5 cursor-pointer " alt="">
             </div>
         </section>
     </div>
